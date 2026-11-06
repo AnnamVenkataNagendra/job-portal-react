@@ -48,9 +48,9 @@ const UserRegister = () => {
 
     return (
         <form onSubmit={handelSubmit}>
-            <div className='container border border-3 w-50 p-3 mt-3 rounded-3'>
+            <div className='container border border-3 w-50 p-3 mt-3 rounded-3 text-white'>
 
-                <h1 className='bi bi-person-fill text-dark'>
+                <h1 className='bi bi-person-fill text-danger '>
                     User Register Form
                 </h1>
 
