@@ -13,11 +13,13 @@ const DeleteJobs = () => {
            const response=await connection.deleteById(id)
            console.log('deleted', response.data)
            setDelete(response.data.message)
+           alert('Delete Successfylly')
            navigate('/recruiter')
+
          }
          catch(err){
-          console.log('unavle to deteler', err)
-          alert('Delete Successfylly')
+          console.log('unavle to detele', err)
+          alert('unable to delete')
          }
         }
   return (
