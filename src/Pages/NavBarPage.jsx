@@ -8,7 +8,7 @@ const NavBarPage = () => {
         JobConnect
       </div>
     <div className="nav-links">
-        <a href="*">Home</a>
+        <a href="#">Home</a>
         <a href="#jobs">Find Jobs</a>
         <a href="#about">About</a>
       </div>

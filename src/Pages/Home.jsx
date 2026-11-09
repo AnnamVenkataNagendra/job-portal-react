@@ -3,6 +3,7 @@ import React, { useEffect } from 'react'
 import NavBarPage from './NavBarPage'
 import Hero from '../Components/Hero'
 import JobCard from '../Components/JobCard'
+import FooterComponent from '../Components/FooterComponent'
 
 const Home = () => {
     useEffect(() => {
@@ -14,6 +15,7 @@ const Home = () => {
       <NavBarPage/>
       <Hero/>
       <JobCard/>
+      <FooterComponent/>
     </div>
   )
 }
