@@ -18,7 +18,7 @@ const DeleteJobs = () => {
 
          }
          catch(err){
-          console.log('unavle to detele', err)
+          console.log('unable to detele', err)
           alert('unable to delete')
          }
         }
