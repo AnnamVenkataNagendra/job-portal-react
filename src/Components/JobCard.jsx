@@ -31,7 +31,7 @@ const JobCard = () => {
   return (
     <div className='Jobs-card'>
 
-      <h2>Latest Job Opportunities</h2>
+     <marquee><h2>Latest Job Opportunities</h2></marquee>
 
       <p className='text-success'>
         Explore the latest jobs posted by recruiters.
